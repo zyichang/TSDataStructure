@@ -3,3 +3,6 @@
 
 # ignore Xcode projects config file
 **/*.xcodeproj
+
+# ignore MacOS .DS_store file manage file
+**/*.DS_Store
