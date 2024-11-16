@@ -6,3 +6,8 @@
 
 # ignore MacOS .DS_store file manage file
 **/*.DS_Store
+
+# ignore .vs and .idea and cmakebuild fold.
+.vs/
+.idea/
+cmake-build-debug/
