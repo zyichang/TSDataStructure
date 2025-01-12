@@ -16,7 +16,7 @@
 int main(int argc, const char * argv[]) {
     int n = 0;
     scanf("%d", &n);
-    int num[n];
+    int num[1000];
     num[0]=0;
     int tempSum = 0;
     

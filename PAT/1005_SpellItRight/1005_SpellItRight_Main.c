@@ -4,15 +4,14 @@
 //
 //  Created by Yi chang Zhang on 2024/10/30.
 //
-#include <iostream>
+#include <stdio>
 #include <string>
 #include <cmath>
-using namespace std;
 
 int main()
 {
-    string sinput;
-    cin >> sinput;
+    char sinput[100];
+    scanf("%s\n",sinput);
     long Result = 0;
     int length = sinput.length();
     for(int i = 0; i < length; i++ ){
@@ -24,7 +23,7 @@ int main()
     //length = 200 200M< Result < 1800
     //l =999 999< R < 9000
     if(Result==0){
-        cout<<"zero";
+        printf("zero");
         return 0;
     }
     
@@ -48,30 +47,30 @@ int main()
         if(BeginFlag == 1 ){
             if(squaredN !=0){
             switch (lN){
-                case 0:cout<<"zero "; break;
-                case 1:cout<<"one "; break;
-                case 3:cout<<"three "; break;
-                case 4:cout<<"four "; break;
-                case 5:cout<<"five "; break;
-                case 6:cout<<"six "; break;
-                case 7:cout<<"seven "; break;
-                case 8:cout<<"eight "; break;
-                case 9:cout<<"nine "; break;
-                case 2:cout<<"two "; break;
+                case 0:print("zero "); break;
+                case 1:print("one "); break;
+                case 2:print("two "); break;
+                case 3:print("three "); break;
+                case 4:print("four "); break;
+                case 5:print("five "); break;
+                case 6:print("six "); break;
+                case 7:print("seven "); break;
+                case 8:print("eight "); break;
+                case 9:print("nine "); break;
             }
             }
             else{
             switch (lN){
-                case 0:cout<<"zero\n"; break;
-                case 1:cout<<"one\n"; break;
-                case 3:cout<<"three\n"; break;
-                case 4:cout<<"four\n"; break;
-                case 5:cout<<"five\n"; break;
-                case 6:cout<<"six\n"; break;
-                case 7:cout<<"seven\n"; break;
-                case 8:cout<<"eight\n"; break;
-                case 9:cout<<"nine\n"; break;
-                case 2:cout<<"two\n"; break;
+                case 0:print("zero\n"); break;
+                case 1:print("one\n"); break;
+                case 2:print("two\n"); break;
+                case 3:print("three\n"); break;
+                case 4:print("four\n"); break;
+                case 5:print("five\n"); break;
+                case 6:print("six\n"); break;
+                case 7:print("seven\n"); break;
+                case 8:print("eight\n"); break;
+                case 9:print("nine\n"); break;
             }
             }
         }

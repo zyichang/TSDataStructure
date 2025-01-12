@@ -14,7 +14,7 @@
 //  Created by Yi chang Zhang on 2024/10/30.
 //
 
-#include <iostream>
+#include <stdio>
 #include <string>
 
 const int maxn = 20;

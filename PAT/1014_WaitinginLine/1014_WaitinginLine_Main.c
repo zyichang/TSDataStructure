@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
     int K = 0; // ≤1000, number of customers
     int Q = 0; // ≤1000, number of customer queries
     scanf("%d %d %d %d", &N, &M, &K, &Q);
-    if (N == 0 || M == 0 || K ==0) {
+    if (N == 0 || M == 0 || K == 0) {
         return 0;
     }
     int T[K];
