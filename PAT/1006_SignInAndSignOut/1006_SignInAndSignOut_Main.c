@@ -14,8 +14,8 @@
 //  Created by Yi chang Zhang on 2024/10/30.
 //
 
-#include <stdio>
-#include <string>
+#include <stdio.h>
+#include <string.h>
 
 const int maxn = 20;
 char a[maxn][maxn];
