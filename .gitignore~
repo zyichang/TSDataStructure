@@ -1,5 +1,0 @@
-# ignore Xcode work space config file
-**/*.xcworkspace
-
-# ignore Xcode projects config file
-**/*.xcodeproj
