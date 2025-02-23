@@ -4,16 +4,22 @@
 //
 //  Created by Yi chang Zhang on 2024/10/30.
 //
-#include <stdio>
-#include <string>
-#include <cmath>
+// Sample Input:
+// 12345
 
-int main()
+// Sample Output:
+// one five
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+
+int main(int argc, const char * argv[])
 {
     char sinput[100];
-    scanf("%s\n",sinput);
+    scanf("%s",sinput);
     long Result = 0;
-    int length = sinput.length();
+    int length = strlen(sinput);
     for(int i = 0; i < length; i++ ){
         Result = Result + (sinput[i] - '0');
     }
@@ -47,30 +53,30 @@ int main()
         if(BeginFlag == 1 ){
             if(squaredN !=0){
             switch (lN){
-                case 0:print("zero "); break;
-                case 1:print("one "); break;
-                case 2:print("two "); break;
-                case 3:print("three "); break;
-                case 4:print("four "); break;
-                case 5:print("five "); break;
-                case 6:print("six "); break;
-                case 7:print("seven "); break;
-                case 8:print("eight "); break;
-                case 9:print("nine "); break;
+                case 0:printf("zero "); break;
+                case 1:printf("one "); break;
+                case 2:printf("two "); break;
+                case 3:printf("three "); break;
+                case 4:printf("four "); break;
+                case 5:printf("five "); break;
+                case 6:printf("six "); break;
+                case 7:printf("seven "); break;
+                case 8:printf("eight "); break;
+                case 9:printf("nine "); break;
             }
             }
             else{
             switch (lN){
-                case 0:print("zero\n"); break;
-                case 1:print("one\n"); break;
-                case 2:print("two\n"); break;
-                case 3:print("three\n"); break;
-                case 4:print("four\n"); break;
-                case 5:print("five\n"); break;
-                case 6:print("six\n"); break;
-                case 7:print("seven\n"); break;
-                case 8:print("eight\n"); break;
-                case 9:print("nine\n"); break;
+                case 0:printf("zero\n"); break;
+                case 1:printf("one\n"); break;
+                case 2:printf("two\n"); break;
+                case 3:printf("three\n"); break;
+                case 4:printf("four\n"); break;
+                case 5:printf("five\n"); break;
+                case 6:printf("six\n"); break;
+                case 7:printf("seven\n"); break;
+                case 8:printf("eight\n"); break;
+                case 9:printf("nine\n"); break;
             }
             }
         }
