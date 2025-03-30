@@ -12,6 +12,7 @@
 .idea/
 cmake-build-debug/
 out/
+build/
 
 # ignore Vim cache files
 *~

@@ -34,11 +34,11 @@ int main(int argc, const char * argv[]) {
         totalOdd *= temp;
         switch (flag) {
             case 0:
-                printf("W ")); break;
+                printf("W "); break;
             case 1:
-                printf("T ")); break;
+                printf("T "); break;
             case 2:
-                printf("L ")); break;
+                printf("L "); break;
         }
     }
     printf("%.2f", (totalOdd * 0.65 - 1) *2);
