@@ -16,8 +16,8 @@
 
 #include <stdio.h>
 #include <string.h>
+#define maxn 100
 
-const int maxn = 20;
 char a[maxn][maxn];
 
 int main(int argc, const char * argv[]) {

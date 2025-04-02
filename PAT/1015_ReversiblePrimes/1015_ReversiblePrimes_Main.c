@@ -29,22 +29,22 @@ typedef struct node {
 
 static int isPrime(int n) {
     if (n <= 1) {
-        return false;  // Numbers less than 2 are not prime
+        return 0;  // Numbers less than 2 are not prime
     }
     if (n <= 3) {
-        return true;   // 2 and 3 are prime numbers
+        return 1;   // 2 and 3 are prime numbers
     }
     if (n % 2 == 0 || n % 3 == 0) {
-        return false;  // Eliminate multiples of 2 and 3
+        return 0;  // Eliminate multiples of 2 and 3
     }
     
     // Check for divisors up to the square root of n
     for (int i = 5; i <= sqrt(n); i += 6) {
         if (n % i == 0 || n % (i + 2) == 0) {
-            return false;
+            return 0;
         }
     }
-    return true;
+    return 1;
 }
 
 static int isReversePrime(int N, int D){
@@ -95,7 +95,7 @@ int main(int argc, const char * argv[]) {
         
         if (isPrime(N) == 0) {
             printf("No\n");
-             continue;
+            continue;
         }
         
         if (isReversePrime(N, D) == 1) {
