@@ -14,11 +14,13 @@
 
 // Dijkstra算法中的最短路径矩阵，是一个二维数组
 typedef Boolean PathMatrix_DIJ[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
+
 // Dijkstra算法中的最短路径代价，该代价可能是步长和，也可能是权值和
 typedef int ShortPathTable_DIJ[MAX_VERTEX_NUM];
 
 // Floyd算法中的最短路径矩阵，是一个三维数组
 typedef Boolean PathMatrix_FLOYD[MAX_VERTEX_NUM][MAX_VERTEX_NUM][MAX_VERTEX_NUM];
+
 // Floyd算法中的最短路径代价，该代价可能是步长和，也可能是权值和
 typedef int ShortPathTable_FLOYD[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
 
