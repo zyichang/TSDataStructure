@@ -1,5 +1,5 @@
 add_subdirectory(1001_APlusBFormat)
-add_subdirectory(1002A+BforPolynomimals)
+add_subdirectory(1002_A+BforPolynomimals)
 add_subdirectory(1003_Emergency)
 add_subdirectory(1004_CountingLeaves)
 add_subdirectory(1005_SpellItRight)
