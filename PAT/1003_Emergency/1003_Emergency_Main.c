@@ -2,7 +2,7 @@
 //  1003_Emergency_Main.c
 //  1003_Emergency_Main
 //
-//  Created by Yi chang Zhang on 2025/3/2.
+//  Created by Yichang Zhang on 2025/3/2.
 //
 
 /*
